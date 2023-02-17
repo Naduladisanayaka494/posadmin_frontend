@@ -8,18 +8,25 @@ import { Ng2SmartTableModule } from 'ng2-smart-table';
 import { ChartsModule } from 'ng2-charts';
 import { Ng2GoogleChartsModule } from 'ng2-google-charts';
 import { NgxChartsModule } from '@swimlane/ngx-charts';
-import { ChartistModule } from 'ng-chartist'
+import { ChartistModule } from 'ng-chartist';
+import { MyDatePickerModule } from 'mydatepicker';
 
 @NgModule({
   declarations: [ReportsComponent],
   imports: [
+    
     CommonModule,
     ChartsModule,
     Ng2GoogleChartsModule,
     NgxChartsModule,
     ChartistModule,
     ReportsRoutingModule,
-    Ng2SmartTableModule
+    Ng2SmartTableModule,
+  
+    
+    
+    
+    
   ]
 })
 export class ReportsModule { }

@@ -42,7 +42,7 @@ export class SalesService {
 
       let url = ServiceConstant.backendUrl + "/api/v1/transactions/sales/search";
     
-    return this.httpClient.post(url,accountId,options);
+    return this.httpClient.get(url,options);
   }
 
 }
